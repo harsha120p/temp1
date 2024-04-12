@@ -15,7 +15,7 @@ for file in files:
     data = pd.concat([data,df])
     
 data.to_csv("data12months.csv", index= False)
-# print(data.head())
+# print(data.head())# #
 
 new_data = pd.read_csv("C:\python\learning\data12months.csv")
 
